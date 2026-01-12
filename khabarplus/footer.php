@@ -9,19 +9,19 @@
                 <?php dynamic_sidebar('footer-1'); ?>
             <?php else : ?>
                 <section class="widget">
-                    <h3><?php esc_html_e('عن الموقع', 'sudaninet-pro'); ?></h3>
-                    <p><?php esc_html_e('منصة إخبارية احترافية تقدم أحدث الأخبار والتحليلات والتقارير الخاصة.', 'sudaninet-pro'); ?></p>
+                    <h3><?php esc_html_e('عن الموقع', 'khabarplus'); ?></h3>
+                    <p><?php esc_html_e('منصة إخبارية احترافية تقدم أحدث الأخبار والتحليلات والتقارير الخاصة.', 'khabarplus'); ?></p>
                 </section>
                 <section class="widget">
-                    <h3><?php esc_html_e('روابط سريعة', 'sudaninet-pro'); ?></h3>
+                    <h3><?php esc_html_e('روابط سريعة', 'khabarplus'); ?></h3>
                     <ul>
-                        <li><a href="#"><?php esc_html_e('سياسة الخصوصية', 'sudaninet-pro'); ?></a></li>
-                        <li><a href="#"><?php esc_html_e('اتصل بنا', 'sudaninet-pro'); ?></a></li>
-                        <li><a href="#"><?php esc_html_e('من نحن', 'sudaninet-pro'); ?></a></li>
+                        <li><a href="#"><?php esc_html_e('سياسة الخصوصية', 'khabarplus'); ?></a></li>
+                        <li><a href="#"><?php esc_html_e('اتصل بنا', 'khabarplus'); ?></a></li>
+                        <li><a href="#"><?php esc_html_e('من نحن', 'khabarplus'); ?></a></li>
                     </ul>
                 </section>
                 <section class="widget">
-                    <h3><?php esc_html_e('تابعنا', 'sudaninet-pro'); ?></h3>
+                    <h3><?php esc_html_e('تابعنا', 'khabarplus'); ?></h3>
                     <div class="topbar__social">
                         <a href="#" aria-label="Facebook">F</a>
                         <a href="#" aria-label="Twitter">X</a>

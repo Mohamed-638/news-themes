@@ -13,7 +13,7 @@
     <div class="container">
         <div class="topbar__meta">
             <span><?php echo esc_html(date_i18n('l، j F Y')); ?></span>
-            <span><?php esc_html_e('أخبار السودان والعالم لحظة بلحظة', 'sudaninet-pro'); ?></span>
+            <span><?php esc_html_e('أخبار السودان والعالم لحظة بلحظة', 'khabarplus'); ?></span>
         </div>
         <div class="topbar__social">
             <a href="#" aria-label="Facebook">F</a>
@@ -48,14 +48,14 @@
                 'items_wrap' => '<ul>%3$s</ul>',
             ]);
             ?>
-            <a class="button" href="#"><?php esc_html_e('اشترك الآن', 'sudaninet-pro'); ?></a>
+            <a class="button" href="#"><?php esc_html_e('اشترك الآن', 'khabarplus'); ?></a>
         </div>
     </div>
 </header>
 
 <div class="breaking">
     <div class="container breaking__inner">
-        <span class="breaking__title"><?php esc_html_e('عاجل', 'sudaninet-pro'); ?></span>
+        <span class="breaking__title"><?php esc_html_e('عاجل', 'khabarplus'); ?></span>
         <div class="breaking__items">
             <?php
             $breaking_posts = get_posts([

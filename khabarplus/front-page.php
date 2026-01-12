@@ -13,10 +13,10 @@
                 ?>
                 <article class="feature-card" style="background-image: url('<?php echo esc_url($image); ?>'); background-size: cover; background-position: center;">
                     <div class="feature-card__content">
-                        <span class="feature-card__tag"><?php esc_html_e('الخبر الأبرز', 'sudaninet-pro'); ?></span>
+                        <span class="feature-card__tag"><?php esc_html_e('الخبر الأبرز', 'khabarplus'); ?></span>
                         <h2><?php the_title(); ?></h2>
                         <p><?php echo esc_html(wp_trim_words(get_the_excerpt(), 20)); ?></p>
-                        <a class="button" href="<?php the_permalink(); ?>"><?php esc_html_e('اقرأ المزيد', 'sudaninet-pro'); ?></a>
+                        <a class="button" href="<?php the_permalink(); ?>"><?php esc_html_e('اقرأ المزيد', 'khabarplus'); ?></a>
                     </div>
                 </article>
             <?php endwhile; wp_reset_postdata(); endif; ?>
@@ -54,8 +54,8 @@
     <div class="container news-grid">
         <div>
             <div class="section__title">
-                <h2><?php esc_html_e('الأخبار المميزة', 'sudaninet-pro'); ?></h2>
-                <a href="<?php echo esc_url(get_permalink(get_option('page_for_posts'))); ?>"><?php esc_html_e('عرض الكل', 'sudaninet-pro'); ?></a>
+                <h2><?php esc_html_e('الأخبار المميزة', 'khabarplus'); ?></h2>
+                <a href="<?php echo esc_url(get_permalink(get_option('page_for_posts'))); ?>"><?php esc_html_e('عرض الكل', 'khabarplus'); ?></a>
             </div>
 
             <?php
@@ -80,7 +80,7 @@
                                 <span><?php the_category(', '); ?></span>
                             </div>
                             <p class="post-card__excerpt"><?php the_excerpt(); ?></p>
-                            <a class="button" href="<?php the_permalink(); ?>"><?php esc_html_e('اقرأ المزيد', 'sudaninet-pro'); ?></a>
+                            <a class="button" href="<?php the_permalink(); ?>"><?php esc_html_e('اقرأ المزيد', 'khabarplus'); ?></a>
                         </div>
                     </article>
                 <?php endwhile; wp_reset_postdata(); endif; ?>

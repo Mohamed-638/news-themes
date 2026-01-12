@@ -4,13 +4,13 @@
         <?php dynamic_sidebar('sidebar-1'); ?>
     <?php else : ?>
         <section class="widget">
-            <h3><?php esc_html_e('أقسام', 'sudaninet-pro'); ?></h3>
+            <h3><?php esc_html_e('أقسام', 'khabarplus'); ?></h3>
             <ul>
                 <?php wp_list_categories(['title_li' => '']); ?>
             </ul>
         </section>
         <section class="widget">
-            <h3><?php esc_html_e('الأكثر قراءة', 'sudaninet-pro'); ?></h3>
+            <h3><?php esc_html_e('الأكثر قراءة', 'khabarplus'); ?></h3>
             <ul>
                 <?php
                 $popular = new WP_Query([
@@ -25,11 +25,11 @@
             </ul>
         </section>
         <section class="widget">
-            <h3><?php esc_html_e('نشرة بريدية', 'sudaninet-pro'); ?></h3>
-            <p><?php esc_html_e('اشترك ليصلك كل جديد مباشرة.', 'sudaninet-pro'); ?></p>
+            <h3><?php esc_html_e('نشرة بريدية', 'khabarplus'); ?></h3>
+            <p><?php esc_html_e('اشترك ليصلك كل جديد مباشرة.', 'khabarplus'); ?></p>
             <form>
                 <input type="email" placeholder="example@email.com" style="width:100%; padding:10px; margin-bottom:8px;">
-                <button class="button" type="submit"><?php esc_html_e('اشتراك', 'sudaninet-pro'); ?></button>
+                <button class="button" type="submit"><?php esc_html_e('اشتراك', 'khabarplus'); ?></button>
             </form>
         </section>
     <?php endif; ?>

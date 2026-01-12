@@ -4,7 +4,7 @@
     <div class="container news-grid">
         <div>
             <div class="section__title">
-                <h2><?php esc_html_e('آخر الأخبار', 'sudaninet-pro'); ?></h2>
+                <h2><?php esc_html_e('آخر الأخبار', 'khabarplus'); ?></h2>
             </div>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <article class="post-card">
@@ -22,7 +22,7 @@
                             <span><?php the_category(', '); ?></span>
                         </div>
                         <p class="post-card__excerpt"><?php the_excerpt(); ?></p>
-                        <a class="button" href="<?php the_permalink(); ?>"><?php esc_html_e('اقرأ المزيد', 'sudaninet-pro'); ?></a>
+                        <a class="button" href="<?php the_permalink(); ?>"><?php esc_html_e('اقرأ المزيد', 'khabarplus'); ?></a>
                     </div>
                 </article>
             <?php endwhile; endif; ?>
